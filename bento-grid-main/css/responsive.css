@@ -1,0 +1,97 @@
+
+@media (max-width:768px) {
+    .container {
+        grid-template-columns: 260px;
+        grid-template-rows: auto;
+        width: fit-content;
+        display: grid;
+        padding: 10px;
+    }
+
+    .social-media {
+        grid-area: 1/1/2/2;
+        padding: 25px 40px;
+    }
+
+    #star {
+        width: 70%;
+    }
+
+    .manage {
+        grid-area: 2/1/3/2;
+    } 
+
+    #multiple-platforms {
+        width: 110%;
+    }
+
+    .maintain {
+        grid-area: 3/1/4/2;
+        height: 135px;
+    }
+
+    #consistent-schedule {
+        width: 70%;
+    }
+
+    .schedule {
+        grid-area: 4/1/5/2;
+    }
+
+    #schedule-posts {
+        width: 100%;
+    }
+
+    .schedule h6 {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .grow {
+        grid-area: 5/1/6/2;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #grow-image {
+        width: 80%;
+    }
+
+    #grow-text {
+        width: 65%;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .faster {
+        grid-area: 6/1/7/2;
+    }
+
+    #audience-growth {
+        width: 50%;
+    }
+
+    .create {
+        grid-area: 7/1/8/2;
+        height: fit-content;
+    }
+
+    #create-post {
+        width: 55%;
+    }
+
+    .write {
+        grid-area: 8/1/9/2; 
+        margin-top: 0em;
+    }
+
+    .write h3 {
+        width: 90%;
+    }
+
+    #ai-content {
+        height: auto;
+        width: 65%;
+        margin-top: 1em;
+    }
+}
