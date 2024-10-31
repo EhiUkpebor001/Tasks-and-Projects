@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Navigation</title>
+
+    <style>
+
+        body {
+            text-align: center;
+        }
+
+        a {
+            color: plum;
+            text-decoration: none;
+            border-bottom: 2px double blueviolet;
+        }
+
+        a:hover {
+            padding: 10px;
+            background: linear-gradient(to left, blueviolet, violet);
+            border-radius: 15px;
+            color: white;
+        }
+
+        #arrow {
+            font-size:  x-large;
+            font-weight: bolder;
+        }
+
+        .designs {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            background: linear-gradient(to bottom, pink, plum);
+            margin: auto;
+        }
+
+        #desktop, #mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: fit-content;
+        }
+
+        .preview {
+            color: rgb(192, 89, 192);
+            font-weight: 800;
+            font-size: large;
+            border-radius: 5px;
+            background-color: pink;
+            padding: 10px;
+            width: 10em;
+            text-align: center;
+        }
+
+        .preview:hover {
+            background: linear-gradient(to right, pink, rgb(176, 18, 176));
+            border-radius: 20px;
+            color: whitesmoke;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>WELCOME TO MY GITHUB PAGES</h1>
+    <h3>Click the link below to view my Bento grid Project</h3>
+    <p>
+        <span id="arrow">&rarr;</span> 
+        <a href="./bento-grid-main/index.html">BENTO-GRID PROJECT</a>
+    </p>
+
+    <div class="designs">
+        <div id="desktop">
+            <p class="preview">Desktop-view design; </p>
+            <img src="./bento-grid-main/design/desktop-design.jpg" alt="Desktop design" width="90%">
+        </div>
+    
+        <div id="mobile">
+            <p class="preview">Mobile-view design; </p>
+            <img src="./bento-grid-main/design/mobile-design.jpg" alt="Mobile design" width="60%" height="80%">
+        </div>
+    </div>
+
+</body>
+</html>
